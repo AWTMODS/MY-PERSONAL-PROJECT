@@ -1,6 +1,8 @@
 <?php
 
 
+
+
 include("connection.php");
 if(isset($_post['submit'])){
 
@@ -15,7 +17,7 @@ if(isset($_post['submit'])){
 
 
 
-      if($num > 0 ){
+      if($num > 0){
 
             header("location:welcome.php");
 
